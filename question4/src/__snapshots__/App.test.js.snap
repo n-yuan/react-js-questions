@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given CanEdit is false then edit button is not shown 1`] = `
+<div>
+  <div>
+    <header>
+      <h1>
+        StarRez: Question 4
+      </h1>
+    </header>
+    <article>
+      <p>
+        Write some tests for the below functionality
+      </p>
+      <h2>
+        none
+      </h2>
+      <ul>
+        <li>
+          <button>
+            one
+          </button>
+        </li>
+      </ul>
+    </article>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing: Enzyme 1`] = `
+<_default
+  items={
+    Array [
+      Object {
+        "name": "one",
+      },
+    ]
+  }
+>
+  <div>
+    <header>
+      <h1>
+        StarRez: Question 4
+      </h1>
+    </header>
+    <article>
+      <p>
+        Write some tests for the below functionality
+      </p>
+      <h2>
+        none
+      </h2>
+      <ul>
+        <li
+          key="one"
+        >
+          <button
+            onClick={[Function]}
+          >
+            one
+          </button>
+        </li>
+      </ul>
+    </article>
+  </div>
+</_default>
+`;

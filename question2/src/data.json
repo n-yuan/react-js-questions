@@ -1,0 +1,31 @@
+[
+    {
+        "nameFirst": "Tim",
+        "nameLast": "Carol",
+        "room": "Room 10001"
+    },
+
+    {
+        "nameFirst": "Clare",
+        "nameLast": "Brian",
+        "room": "Room 10001"
+    },
+
+    {
+        "nameFirst": "Luna",
+        "nameLast": "Bob",
+        "room": "Room 10021"
+    },
+
+    {
+        "nameFirst": "Daveo",
+        "nameLast": "Jamal",
+        "room": "Room 10031"
+    },
+
+    {
+        "nameFirst": "Justin",
+        "nameLast": "Parsons",
+        "room": "Room 10001"
+    }
+]
