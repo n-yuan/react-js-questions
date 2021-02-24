@@ -20,3 +20,11 @@ h1 {
 article {
   padding: 2em;
 }
+
+.table-row-light {
+  background-color: #ffffff;
+}
+
+.table-row-dark {
+  background-color: #bbbbbb;
+}

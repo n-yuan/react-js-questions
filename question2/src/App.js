@@ -1,4 +1,5 @@
 import React from 'react';
+import RoomTable from './RoomTable';
 
 function App() {
   return (
@@ -9,11 +10,7 @@ function App() {
 
       <article>
         <p>Render the contents of the data.JSON file</p>
-        {/* 
-        
-        Please see the readme.md file for question information
-          
-        */}
+        <RoomTable />
       </article>
     </main>
   );
