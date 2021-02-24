@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
+import Form from "./Form";
 
 export default () => {
-
-  const handleFormPost = e => {
-    alert(JSON.stringify(e))
-  }
+  const handleFormPost = (e) => {
+    alert(JSON.stringify(e));
+  };
 
   return (
     <main>
@@ -14,10 +14,8 @@ export default () => {
 
       <article>
         <p>Create an accessible form</p>
-
-        {/* See README.md file for more information */}
-
+        <Form onSubmit={handleFormPost} />
       </article>
     </main>
   );
-}
+};
